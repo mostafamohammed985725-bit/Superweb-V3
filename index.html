@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SuperWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>SuperWeb</h1>
+  <p>Publish your project globally</p>
+</header>
+
+<nav>
+  <button onclick="filterProjects('Build')">Build</button>
+  <button onclick="filterProjects('Run')">Run</button>
+  <button onclick="filterProjects('Analytics')">Analytics</button>
+  <button onclick="filterProjects('AI')">AI</button>
+</nav>
+
+<main id="projects" class="grid"></main>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
